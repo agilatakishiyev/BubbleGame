@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.game_wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+.bubble_wrapper{
+    width: 50%;
+    height: 60vh;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    position: relative;
+}
+.b_radius{
+    border-radius: 5px;
+}
+.score_board_wrapper{
+    width: 20%;
+}
+.score_board{
+    background-color: yellowgreen;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.score_holder{
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.bubble_mubble{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: red;
+}
